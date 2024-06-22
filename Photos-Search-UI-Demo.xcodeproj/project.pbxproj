@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C28F848C2C2718550017481C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28F848B2C2718550017481C /* AppDelegate.swift */; };
-		C28F848E2C2718550017481C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28F848D2C2718550017481C /* SceneDelegate.swift */; };
-		C28F84902C2718550017481C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28F848F2C2718550017481C /* ViewController.swift */; };
-		C28F84932C2718550017481C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28F84912C2718550017481C /* Main.storyboard */; };
+		C24C6B132C272A4B00E7F43B /* PUButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C6B122C272A4B00E7F43B /* PUButtonStyle.swift */; };
+		C24C6B192C272E8800E7F43B /* UIKBVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C6B182C272E8800E7F43B /* UIKBVisualEffectView.swift */; };
+		C24C6B1C2C272F1500E7F43B /* PUSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C6B1B2C272F1500E7F43B /* PUSearchBar.swift */; };
+		C28F848C2C2718550017481C /* PUAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28F848B2C2718550017481C /* PUAppDelegate.swift */; };
+		C28F848E2C2718550017481C /* PUSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28F848D2C2718550017481C /* PUSceneDelegate.swift */; };
 		C28F84952C2718560017481C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28F84942C2718560017481C /* Assets.xcassets */; };
 		C28F84982C2718560017481C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28F84962C2718560017481C /* LaunchScreen.storyboard */; };
+		C28F84A32C2718CE0017481C /* PUSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28F84A22C2718CE0017481C /* PUSearchViewController.swift */; };
+		C28F84AD2C2719BE0017481C /* PUHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28F84AC2C2719BE0017481C /* PUHomeView.swift */; };
+		C28F84AF2C271EC70017481C /* PUHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28F84AE2C271EC70017481C /* PUHeaderView.swift */; };
+		C28F84B12C271ED60017481C /* PUGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28F84B02C271ED60017481C /* PUGridView.swift */; };
+		C28F84B32C271EE50017481C /* PUPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28F84B22C271EE50017481C /* PUPageControl.swift */; };
+		C28F84B52C2720A80017481C /* PUSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28F84B42C2720A80017481C /* PUSectionHeaderView.swift */; };
+		C28F84B72C2722C30017481C /* PUCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28F84B62C2722C30017481C /* PUCarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C24C6B122C272A4B00E7F43B /* PUButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUButtonStyle.swift; sourceTree = "<group>"; };
+		C24C6B162C272E1700E7F43B /* UIKBBackdropView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKBBackdropView.h; sourceTree = "<group>"; };
+		C24C6B172C272E2F00E7F43B /* Photos-Search-UI-Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Photos-Search-UI-Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		C24C6B182C272E8800E7F43B /* UIKBVisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKBVisualEffectView.swift; sourceTree = "<group>"; };
+		C24C6B1B2C272F1500E7F43B /* PUSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUSearchBar.swift; sourceTree = "<group>"; };
 		C28F84882C2718550017481C /* Photos-Search-UI-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photos-Search-UI-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C28F848B2C2718550017481C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C28F848D2C2718550017481C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C28F848F2C2718550017481C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C28F84922C2718550017481C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C28F848B2C2718550017481C /* PUAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUAppDelegate.swift; sourceTree = "<group>"; };
+		C28F848D2C2718550017481C /* PUSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUSceneDelegate.swift; sourceTree = "<group>"; };
 		C28F84942C2718560017481C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C28F84972C2718560017481C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C28F84992C2718560017481C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28F84A22C2718CE0017481C /* PUSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUSearchViewController.swift; sourceTree = "<group>"; };
+		C28F84AC2C2719BE0017481C /* PUHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUHomeView.swift; sourceTree = "<group>"; };
+		C28F84AE2C271EC70017481C /* PUHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUHeaderView.swift; sourceTree = "<group>"; };
+		C28F84B02C271ED60017481C /* PUGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUGridView.swift; sourceTree = "<group>"; };
+		C28F84B22C271EE50017481C /* PUPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUPageControl.swift; sourceTree = "<group>"; };
+		C28F84B42C2720A80017481C /* PUSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUSectionHeaderView.swift; sourceTree = "<group>"; };
+		C28F84B62C2722C30017481C /* PUCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUCarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C24C6B142C272A5B00E7F43B /* ButtonStyles */ = {
+			isa = PBXGroup;
+			children = (
+				C24C6B122C272A4B00E7F43B /* PUButtonStyle.swift */,
+			);
+			path = ButtonStyles;
+			sourceTree = "<group>";
+		};
+		C24C6B152C272AAE00E7F43B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C28F84992C2718560017481C /* Info.plist */,
+				C24C6B162C272E1700E7F43B /* UIKBBackdropView.h */,
+				C24C6B172C272E2F00E7F43B /* Photos-Search-UI-Demo-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C24C6B1A2C272E9000E7F43B /* UIKBVisualEffectView */ = {
+			isa = PBXGroup;
+			children = (
+				C24C6B182C272E8800E7F43B /* UIKBVisualEffectView.swift */,
+			);
+			path = UIKBVisualEffectView;
+			sourceTree = "<group>";
+		};
+		C24C6B1D2C272F1800E7F43B /* PUSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				C24C6B1B2C272F1500E7F43B /* PUSearchBar.swift */,
+			);
+			path = PUSearchBar;
+			sourceTree = "<group>";
+		};
 		C28F847F2C2718550017481C = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +108,143 @@
 		C28F848A2C2718550017481C /* Photos-Search-UI-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				C28F848B2C2718550017481C /* AppDelegate.swift */,
-				C28F848D2C2718550017481C /* SceneDelegate.swift */,
-				C28F848F2C2718550017481C /* ViewController.swift */,
-				C28F84912C2718550017481C /* Main.storyboard */,
-				C28F84942C2718560017481C /* Assets.xcassets */,
-				C28F84962C2718560017481C /* LaunchScreen.storyboard */,
-				C28F84992C2718560017481C /* Info.plist */,
+				C28F849F2C2718AF0017481C /* Base */,
+				C28F84B82C2725420017481C /* Views */,
+				C28F84A92C27190A0017481C /* Controllers */,
+				C28F84A62C2718E10017481C /* Resources */,
+				C24C6B152C272AAE00E7F43B /* Supporting Files */,
 			);
 			path = "Photos-Search-UI-Demo";
+			sourceTree = "<group>";
+		};
+		C28F849F2C2718AF0017481C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C28F84A02C2718B40017481C /* PUAppDelegate */,
+				C28F84A12C2718B70017481C /* PUSceneDelegate */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C28F84A02C2718B40017481C /* PUAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C28F848B2C2718550017481C /* PUAppDelegate.swift */,
+			);
+			path = PUAppDelegate;
+			sourceTree = "<group>";
+		};
+		C28F84A12C2718B70017481C /* PUSceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C28F848D2C2718550017481C /* PUSceneDelegate.swift */,
+			);
+			path = PUSceneDelegate;
+			sourceTree = "<group>";
+		};
+		C28F84A62C2718E10017481C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C28F84A72C2718EA0017481C /* Assets */,
+				C24C6B142C272A5B00E7F43B /* ButtonStyles */,
+				C28F84A82C2718EF0017481C /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C28F84A72C2718EA0017481C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C28F84942C2718560017481C /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C28F84A82C2718EF0017481C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C28F84962C2718560017481C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C28F84A92C27190A0017481C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C28F84AA2C27191A0017481C /* PUSearchViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C28F84AA2C27191A0017481C /* PUSearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C28F84A22C2718CE0017481C /* PUSearchViewController.swift */,
+			);
+			path = PUSearchViewController;
+			sourceTree = "<group>";
+		};
+		C28F84B82C2725420017481C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C28F84BA2C2725540017481C /* PUCarouselView */,
+				C28F84BD2C2725600017481C /* PUGridView */,
+				C28F84BE2C2725630017481C /* PUHeaderView */,
+				C28F84B92C27254E0017481C /* PUHomeView */,
+				C28F84BC2C27255C0017481C /* PUPageControl */,
+				C24C6B1D2C272F1800E7F43B /* PUSearchBar */,
+				C28F84BB2C2725580017481C /* PUSectionHeaderView */,
+				C24C6B1A2C272E9000E7F43B /* UIKBVisualEffectView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C28F84B92C27254E0017481C /* PUHomeView */ = {
+			isa = PBXGroup;
+			children = (
+				C28F84AC2C2719BE0017481C /* PUHomeView.swift */,
+			);
+			path = PUHomeView;
+			sourceTree = "<group>";
+		};
+		C28F84BA2C2725540017481C /* PUCarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				C28F84B62C2722C30017481C /* PUCarouselView.swift */,
+			);
+			path = PUCarouselView;
+			sourceTree = "<group>";
+		};
+		C28F84BB2C2725580017481C /* PUSectionHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				C28F84B42C2720A80017481C /* PUSectionHeaderView.swift */,
+			);
+			path = PUSectionHeaderView;
+			sourceTree = "<group>";
+		};
+		C28F84BC2C27255C0017481C /* PUPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				C28F84B22C271EE50017481C /* PUPageControl.swift */,
+			);
+			path = PUPageControl;
+			sourceTree = "<group>";
+		};
+		C28F84BD2C2725600017481C /* PUGridView */ = {
+			isa = PBXGroup;
+			children = (
+				C28F84B02C271ED60017481C /* PUGridView.swift */,
+			);
+			path = PUGridView;
+			sourceTree = "<group>";
+		};
+		C28F84BE2C2725630017481C /* PUHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				C28F84AE2C271EC70017481C /* PUHeaderView.swift */,
+			);
+			path = PUHeaderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +307,6 @@
 			files = (
 				C28F84982C2718560017481C /* LaunchScreen.storyboard in Resources */,
 				C28F84952C2718560017481C /* Assets.xcassets in Resources */,
-				C28F84932C2718550017481C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +317,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C28F84902C2718550017481C /* ViewController.swift in Sources */,
-				C28F848C2C2718550017481C /* AppDelegate.swift in Sources */,
-				C28F848E2C2718550017481C /* SceneDelegate.swift in Sources */,
+				C24C6B1C2C272F1500E7F43B /* PUSearchBar.swift in Sources */,
+				C28F84B32C271EE50017481C /* PUPageControl.swift in Sources */,
+				C28F84AF2C271EC70017481C /* PUHeaderView.swift in Sources */,
+				C24C6B132C272A4B00E7F43B /* PUButtonStyle.swift in Sources */,
+				C24C6B192C272E8800E7F43B /* UIKBVisualEffectView.swift in Sources */,
+				C28F84B52C2720A80017481C /* PUSectionHeaderView.swift in Sources */,
+				C28F84AD2C2719BE0017481C /* PUHomeView.swift in Sources */,
+				C28F848C2C2718550017481C /* PUAppDelegate.swift in Sources */,
+				C28F84B72C2722C30017481C /* PUCarouselView.swift in Sources */,
+				C28F84B12C271ED60017481C /* PUGridView.swift in Sources */,
+				C28F84A32C2718CE0017481C /* PUSearchViewController.swift in Sources */,
+				C28F848E2C2718550017481C /* PUSceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C28F84912C2718550017481C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C28F84922C2718550017481C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C28F84962C2718560017481C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,10 +474,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DY2GQFY855;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Photos-Search-UI-Demo/Info.plist";
+				INFOPLIST_FILE = "Photos-Search-UI-Demo/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,6 +487,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sebvidal.Photos-Search-UI-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Photos-Search-UI-Demo/Supporting Files/Photos-Search-UI-Demo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -322,10 +502,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DY2GQFY855;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Photos-Search-UI-Demo/Info.plist";
+				INFOPLIST_FILE = "Photos-Search-UI-Demo/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,6 +515,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sebvidal.Photos-Search-UI-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Photos-Search-UI-Demo/Supporting Files/Photos-Search-UI-Demo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

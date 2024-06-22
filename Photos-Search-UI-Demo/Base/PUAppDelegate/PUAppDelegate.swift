@@ -1,5 +1,5 @@
 //
-//  AppDelegate.swift
+//  PUAppDelegate.swift
 //  Photos-Search-UI-Demo
 //
 //  Created by Seb Vidal on 22/06/2024.
@@ -8,7 +8,7 @@
 import UIKit
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class PUAppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
